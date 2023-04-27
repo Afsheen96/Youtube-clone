@@ -44,22 +44,25 @@
 display: flex;
 border: 1px solid #ddd;
 height: 45px;
+border-radius: 25px;
   }
   .search input {
     width:600px;
     padding:10px;
-    border:0;
+    border: 0;
     height:100%;
-    border-radius: 2px 0 0 2px;
+    border-radius: 25px 0 0 25px;
   }
+
   input:focus {
     outline:none;
-    border: 1px solid #ddd;
+    border: 1.1px solid #1c62b9;
   }
   .search button {
     height: 100%;
     width: 10%;
     border:none;
+    border-radius: 0 25px 25px 0;
   }
   .mic {
     margin-top: 10px;
