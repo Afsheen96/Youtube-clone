@@ -13,3 +13,8 @@
     align-items: center;
     padding: 15px;
   }
+  main {
+    height: calc(100vh - 70px);
+    background-color: #f9f9f9;
+    display: flex;
+  }
