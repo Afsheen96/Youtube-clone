@@ -58,9 +58,14 @@ height: 45px;
   }
   .search button {
     height: 100%;
-    width:60%;
+    width: 10%;
     border:none;
   }
   .mic {
     margin-top: 10px;
+  }
+  .material-icons {
+    color: rgb(100 100 100);
+    padding: 0 7px;
+    cursor: pointer;
   }
