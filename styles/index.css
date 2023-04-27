@@ -56,3 +56,11 @@ height: 45px;
     outline:none;
     border: 1px solid #ddd;
   }
+  .search button {
+    height: 100%;
+    width:60%;
+    border:none;
+  }
+  .mic {
+    margin-top: 10px;
+  }
