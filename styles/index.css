@@ -24,3 +24,8 @@
     background-color: white;
     overflow-y: hidden;
   }
+  @media (max-width:786px) {
+    .side-bar {
+        display: none;
+    }
+  }
