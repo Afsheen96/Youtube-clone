@@ -29,3 +29,11 @@
         display: none;
     }
   }
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  .left #menu {
+    padding:0 7px;
+    cursor: pointer;
+  }
