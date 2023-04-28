@@ -83,7 +83,7 @@ border-radius: 25px;
     display: flex;
     flex-direction: column;
     margin-bottom: 1px;
-    margin-top: 1px;
+    margin-top: 20px;
   }
   .nav-link {
     display: flex;
@@ -102,4 +102,10 @@ border-radius: 25px;
   .active {
     background: rgb(243, 241, 241);
     font-weight: bold;
+  }
+  hr {
+    height: 1px;
+    background-color:rgb(243, 241, 241) ;
+    border: none;
+    margin-top: 15px;
   }
