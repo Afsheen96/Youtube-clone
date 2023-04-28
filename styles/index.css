@@ -52,11 +52,13 @@ border-radius: 25px;
     border: 0;
     height:100%;
     border-radius: 25px 0 0 25px;
+    font-size: medium;
+    font-weight: 100;
   }
 
   input:focus {
     outline:none;
-    border: 1.1px solid #1c62b9;
+    border: 1.5px solid #1c62b9;
   }
   .search button {
     height: 100%;
@@ -71,4 +73,8 @@ border-radius: 25px;
     color: rgb(100 100 100);
     padding: 0 7px;
     cursor: pointer;
+  }
+  ::placeholder {
+    color: grey;
+    size: 10px;
   }
