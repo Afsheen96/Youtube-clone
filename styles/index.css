@@ -95,8 +95,8 @@ border-radius: 25px;
   .nav-link span {
     margin-left: 15px;
   }
-  .nav-link :hover {
-    
+  .nav :hover {
+    background:rgb(243, 241, 241) ;
     cursor: pointer; 
   }
   .active {
@@ -108,4 +108,22 @@ border-radius: 25px;
     background-color:rgb(243, 241, 241) ;
     border: none;
     margin-top: 15px;
+  }
+  /*filter*/
+  .filters {
+    position: fixed;
+    top:60px;
+    left:250px;
+    width:calc(100%-250px);
+    height: 60px;
+    background:#fff;
+    border-top: 1px solid #dbdbdb;
+    padding: 0 20px;
+    display:flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  filters::-webkit-scrollbar {
+    display: none;
   }
