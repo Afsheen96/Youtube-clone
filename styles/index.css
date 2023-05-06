@@ -123,8 +123,9 @@ border-radius: 25px;
     padding: 0 20px;
     display:flex;
     align-items: center;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
+   
   }
   filters::-webkit-scrollbar {
     display: none;
@@ -134,14 +135,24 @@ border-radius: 25px;
     padding:10px 20px;
     border-radius: 7px 7px;
     background: #f0f0f0;
-    border: 1px solid #dbdbdb;
+    border: none;
     text-transform: capitalize;
     margin-right: 10px;
     color: #242424;
     font-size: 15px;
     cursor: pointer;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
   }
   .filter-options.active {
     color: #fff;
     background:#030303;
   }
+.scrollable-tab-container svg {
+    width:24px;
+    height:24px;
+    padding:8px;
+    cursor:pointer;
+    color:#fff;
+}
