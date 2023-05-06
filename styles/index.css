@@ -7,6 +7,9 @@
   body {
     font-family: 'Roboto',  sans-serif;
   }
+  :root {
+    --background:rgb(243, 241, 241) ;
+  }
   .header {
     display: flex;
     justify-content: space-between;
@@ -96,16 +99,16 @@ border-radius: 25px;
     margin-left: 15px;
   }
   .nav :hover {
-    background:rgb(243, 241, 241) ;
+    background:var(--background);
     cursor: pointer; 
   }
   .active {
-    background: rgb(243, 241, 241);
+    background: var(--background);
     font-weight: bold;
   }
   hr {
     height: 1px;
-    background-color:rgb(243, 241, 241) ;
+    background-color:var(--background) ;
     border: none;
     margin-top: 15px;
   }
@@ -117,7 +120,6 @@ border-radius: 25px;
     width:calc(100%-250px);
     height: 60px;
     background:#fff;
-    border-top: 1px solid #dbdbdb;
     padding: 0 20px;
     display:flex;
     align-items: center;
@@ -126,4 +128,20 @@ border-radius: 25px;
   }
   filters::-webkit-scrollbar {
     display: none;
+  }
+  .filter-options {
+    flex: 0 0 auto;
+    padding:10px 20px;
+    border-radius: 7px 7px;
+    background: #f0f0f0;
+    border: 1px solid #dbdbdb;
+    text-transform: capitalize;
+    margin-right: 10px;
+    color: #242424;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .filter-options.active {
+    color: #fff;
+    background:#030303;
   }
