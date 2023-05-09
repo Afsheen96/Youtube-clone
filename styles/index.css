@@ -41,6 +41,10 @@
     padding:0 7px;
     cursor: pointer;
   }
+  #menu:hover {
+    background:var(--background);
+    border-radius: 50%;
+  }
   .search {
     display: flex;
   }
